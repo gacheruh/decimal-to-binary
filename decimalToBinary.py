@@ -4,7 +4,7 @@ def decimalToBinary(n):
 
     while(quot != 0):
         rem = quot % 2
-        bin = rem + bin
+        bin = str(rem) + bin
         quot = quot //2
 
     return(bin)
